@@ -9,21 +9,38 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #212121;
+  text-decoration: none;
 }
-
 .web {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
+  text-decoration: none;
+  letter-spacing: 0.03em;
 }
-
+.marka {
+  list-style-type: none;
+}
+.marka-two {
+  list-style-type: none;
+}
+.nav-sites {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2196f3;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
 .nav-site {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #212121;
+  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .nav-site:hover,
 .nav-site:focus {
@@ -34,6 +51,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  text-decoration: none;
 }
 .nav-adm:hover,
 .nav-adm:focus {
@@ -47,6 +65,9 @@ body {
   font-size: 44px;
   line-height: 60px;
   color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .section-button {
@@ -54,18 +75,24 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 .butt {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
   color: #ffffff;
+  letter-spacing: 0.06em;
 }
 .special h3 {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   color: #212121;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .special p {
   font-weight: normal;
@@ -75,24 +102,28 @@ body {
 }
 
 .workday h2 {
+  text-align: center;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   color: #212121;
 }
 .teamwork h2 {
+  text-align: center;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   color: #212121;
 }
 .teamwork h3 {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #212121;
 }
 .teamwork p {
+  text-align: center;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -116,6 +147,8 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .web-two {
@@ -124,6 +157,8 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .button-all,
 .button-site,
@@ -152,6 +187,17 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: #ffffff;
+}
+
+.button-all {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.site-photo {
+  list-style-type: none;
 }
 .site-photo h3 {
   font-weight: bold;
