@@ -1,24 +1,36 @@
-body {
-  font-family: Roboto;
-  color: #212121;
+:root {
+  --general-text: #212121;
+  --second-text: #ffffff;
+  --blue-text: #2196f3;
+  --grey-text: #757575;
+  --nav-grey-text: rgba(255, 255, 255, 0.6);
+  --background-dark: #2f303a;
+  --background-white: #f5f4fa;
+  --background-button: #188ce8;
+  --background-body: #ffffff;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--general-text);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--background-body);
+}
 .logo {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #212121;
+  line-height: 1.2;
+  color: var(--general-text);
   text-decoration: none;
 }
 .web {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;
-  text-decoration: none;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+  color: var(--blue-text);
 }
 .marka {
   list-style-type: none;
@@ -27,56 +39,60 @@ body {
   list-style-type: none;
 }
 .nav-sites {
+  line-height: 1.1;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #2196f3;
+  color: var(--blue-text);
   text-decoration: none;
-  letter-spacing: 0.03em;
 }
 .nav-site {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #212121;
+  line-height: 1.1;
+  color: var(--general-text);
   text-decoration: none;
-  letter-spacing: 0.03em;
 }
 .nav-site:hover,
 .nav-site:focus {
-  color: #2196f3;
+  color: var(--blue-text);
+}
+.nav-adm-head {
+  color: var(--grey-text);
+  font-weight: 500;
+  line-height: 1.1;
+  text-decoration: none;
 }
 .nav-adm {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--nav-grey-text);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   text-decoration: none;
-  letter-spacing: 0.03em;
   font-style: normal;
+}
+.nav-adm-head:hover,
+.nav-adm-head:focus {
+  color: var(--blue-text);
 }
 .nav-adm:hover,
 .nav-adm:focus {
-  color: #2196f3;
+  color: var(--blue-text);
 }
 .section {
-  background: #2f303a;
+  background: var(--background-dark);
 }
 .section-talk {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  color: #ffffff;
+  line-height: 1.4;
+  color: var(--second-text);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .section-button:hover,
 .section-button:focus {
-  background: #188ce8;
+  background: var(--background-button);
 }
 .section-button {
-  background: #2196f3;
+  background: var(--blue-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -87,86 +103,76 @@ body {
 .butt {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
-  color: #ffffff;
+  line-height: 1.9;
+  color: var(--second-text);
   letter-spacing: 0.06em;
 }
-.special h3 {
+.special h2 {
   font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  color: #212121;
-  letter-spacing: 0.03em;
+  line-height: 1.1;
+  color: var(--general-text);
   text-transform: uppercase;
 }
 .special p {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757575;
+  line-height: 1.7;
+  color: var(--grey-text);
 }
 
 .workday h2 {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  color: #212121;
+  line-height: 1.2;
+  color: var(--general-text);
 }
 .teamwork {
-  background: #f5f4fa;
+  background: var(--background-white);
 }
 .teamwork h2 {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  color: #212121;
+  line-height: 1.2;
+  color: var(--general-text);
 }
 .teamwork h3 {
   text-align: center;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  color: #212121;
+  line-height: 1.2;
+  color: var(--general-text);
 }
 .teamwork p {
   text-align: center;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
-  color: #757575;
+  line-height: 1.2;
+  color: var(--grey-text);
 }
 
 .footer {
-  background: #2f303a;
+  background: var(--background-dark);
 }
 
 .marka p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #ffffff;
+  line-height: 1.7;
+  color: var(--grey-text);
 }
 
 .logo-two {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #ffffff;
+  line-height: 1.2;
+  color: var(--second-text);
   text-decoration: none;
-  letter-spacing: 0.03em;
 }
 
 .web-two {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+  color: var(--blue-text);
   text-decoration: none;
 }
 .button-all,
@@ -174,12 +180,12 @@ body {
 .button-app,
 .button-design,
 .button-market {
-  background: #f5f4fa;
+  background: var(--background-white);
   border-radius: 4px;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
 }
 .button-all:hover,
 .button-site:hover,
@@ -191,19 +197,19 @@ body {
 .button-app:focus,
 .button-design:focus,
 .button-market:focus {
-  background: #2196f3;
+  background: var(--blue-text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--second-text);
 }
 
 .button-all {
-  background: #2196f3;
+  background: var(--blue-text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--second-text);
 }
 .site-photo a {
   text-decoration: none;
@@ -211,15 +217,20 @@ body {
 .site-photo {
   list-style-type: none;
 }
-.site-photo h3 {
+.site-photo h2 {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
-  color: #212121;
+  line-height: 2;
+  color: var(--general-text);
 }
 .site-photo p {
-  font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
-  color: #757575;
+  line-height: 1.9;
+  color: var(--grey-text);
+}
+
+.addres p {
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--second-text);
 }
