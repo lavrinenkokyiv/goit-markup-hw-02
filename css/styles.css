@@ -109,11 +109,13 @@ body {
 }
 .special h2 {
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.1;
   color: var(--general-text);
   text-transform: uppercase;
 }
 .special p {
+  font-weight: normal;
   line-height: 1.7;
   color: var(--grey-text);
 }
@@ -151,11 +153,6 @@ body {
 
 .footer {
   background: var(--background-dark);
-}
-
-.marka p {
-  line-height: 1.7;
-  color: var(--grey-text);
 }
 
 .logo-two {
